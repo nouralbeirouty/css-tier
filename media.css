@@ -1,0 +1,71 @@
+.m_hide {
+    display: none;
+}
+
+/* Large screens */
+@media only screen and (max-width: 1000px) {
+    .m_show-lg {
+        display: flex;
+    }
+    .m_hide-lg {
+        display: none;
+    }
+}
+
+/* lg-iPads */
+@media only screen and (max-width: 850px) {
+    .m_show-lmd {
+        display: flex;
+    }
+    .m_show-lmd-bl {
+        display: block
+    }
+    .m_hide-lmd {
+        display: none;
+    }
+}
+
+/* iPads */
+@media only screen and (max-width: 850px) {
+    .m_show-md {
+        display: flex;
+    }
+    .m_show-md-bl {
+        display: block
+    }
+    .m_hide-md {
+        display: none;
+    }
+}
+
+/* Phones */
+@media only screen and (max-width: 700px) {
+    .m_show-sm {
+        display: flex;
+    }
+    .m_show-sm-bl {
+        display: block
+    }
+    .m_hide-sm {
+        display: none;
+    }
+    .m_fd-co-sm {
+        flex-direction: column;
+    }
+    .m__b-sm {
+            width: 100%
+    }
+}
+
+/* Smaller phones */
+@media only screen and (max-width: 600px) {
+    .m_show-xs {
+        display: flex;
+    }
+    .m_show-xs-bl {
+        display: block
+    }
+    .m_hide-xs {
+        display: none;
+    }
+}
